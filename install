@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+echo "Installing mkcd....."
+
+curl -fSL https://raw.githubusercontent.com/purplehippo911/mkcdproj/main/mkcd -o /usr/local/bin/mkcd
+
+chmod +x /usr/local/bin/mkcd
+
+echo "mkcd installed! Run 'mkcd' anywhere."
