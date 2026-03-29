@@ -4,5 +4,5 @@ this is my first published executable script. It's meant as a shortcut to make a
 ## install from here
 
 `
-curl -fsSL https://raw.githubusercontent.com/yourusername/pvinfo/main/install.sh # run in bash
+curl -fSL https://raw.githubusercontent.com/purplehippo911/mkcdproj/main/install | bash
 `
